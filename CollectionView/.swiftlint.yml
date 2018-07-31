@@ -1,0 +1,26 @@
+disabled_rules: # 执行时排除掉的规则
+  - trailing_whitespace
+  - type_name
+  - force_cast
+  - identifier_name
+  - function_body_length
+  - file_length
+  - type_body_length
+  - cyclomatic_complexity
+opt_in_rules: 
+  # you can use -  'swiftlint rules' find
+
+included:
+
+excluded:
+  - Pods
+  - fastlane
+  - MamiloveTests
+  - ReactJS
+  - pygenstrings-master
+  - scripts
+  - Carthage
+  
+line_length: 300
+function_parameter_count: 8
+
